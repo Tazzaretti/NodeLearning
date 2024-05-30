@@ -1,0 +1,55 @@
+Se puede utilizar todo lo que sabemos de javascript
+variables, condicionales, bucles, logs, functions, arrow functions, etc
+
+podemos ejecutar por consola escribiendo
+>node (nombre del archivo)
+
+para el interprete de node simplpemente escribir en consola:
+>node
+
+al dar enter se abre el interprete en consola
+
+
+node puede interactuar con el sistema operativo
+
+
+Global Objects:
+__dirname 
+	Me da el directorio donde se encuentra el archivo
+__filename 
+	Me da el nombre del archivo
+module:
+	Es básicamente un archivo JavaScript que contiene código reutilizable y encapsulado. 
+	Este código puede incluir variables, funciones, clases u otros 
+	bloques de código que queremos utilizar en nuestro programa.
+require:
+	Es una función en Node.js que se utiliza para cargar módulos. 
+	Cuando utilizamos require en nuestro código, estamos solicitando a Node.js 
+	que cargue el contenido de otro archivo JavaScript (el módulo) y 
+	nos lo entregue para que podamos utilizarlo en nuestro programa actual.
+process:
+	es un objeto global en Node.js que proporciona información y 
+	control sobre el proceso en ejecución.
+	Te da acceso a variables de entorno a través de process.env.
+	Puedes obtener los argumentos de la línea de comandos con process.argv.
+	Controla la salida estándar y de error con process.stdout y process.stderr.
+	Permite suscribirte a eventos del proceso como 'exit', 'uncaughtException', etc.
+	Finaliza la ejecución del proceso con process.exit().
+	En general, process es útil para interactuar con el entorno y controlar 
+	el flujo de ejecución de tu aplicación Node.js.
+
+
+
+
+Timers:
+setInterval:
+	Ejecuta codigo cada cierto tiempo
+setTieout
+	Ejecuta codigo despues de qque pase cierto tiempo
+
+
+comun el uso de camelCase
+
+al importar modulos solemos guardarlos en constantes (o variables si lo que importo suele cambiar) con el mismo nombre del modulo
+
+Hay muchos modulos qque nos provee node como os, path
