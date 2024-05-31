@@ -52,4 +52,54 @@ comun el uso de camelCase
 
 al importar modulos solemos guardarlos en constantes (o variables si lo que importo suele cambiar) con el mismo nombre del modulo
 
-Hay muchos modulos qque nos provee node como os, path
+Hay muchos modulos que nos provee node como os, path
+
+al crear scripts dentro de package.json hay comandos comunes como start que se ejecutan solo con
+npm start
+
+pero si le doy otro nombre deberia ser 
+npm run ejecutar
+
+npm remove (nombre del modulo) para desinstalarlo
+
+modulo nodemon 
+	me sirve para que recargue el codigo cada vez que se modifica 
+	asi no tengo que volver a ejecutar
+npm i nodemon
+pero si quiero agregarlo solo para desarrollo
+npm i nodemon -D
+La -D indica que es para desarrollo
+y luego
+npm run dev para ejecutarlo con nodemon que vigilara todos los archivos 
+para ver cambios y reiniciar
+
+es util saber que modulos necesito para produccion y cuales para desarrollar
+
+
+
+modulos globales
+npm instal (nombre del modulo) -g
+se instala para toda la computadora
+npm remove (nombre del modulo) -g
+
+
+.bin
+	contiene los ejecutables qque podemos utilizar en nuestro proyecto
+
+
+CLI
+	Common Line Interface
+	Son herramientas que funcionan desde consola
+
+
+npx
+	Si nosotros le pasamos un modulo que no existe lo descarga temporalmente
+	y ejecuta sin instalarlo en el proyecto ni globalmente
+	Es como un ejecutador de paquetes, a veces necesitamos utilizar 
+	paquetes o modulos sin instalarlos
+	Tambien nos sirve para ejecutar modulos que estan instalados solo en el proyecto
+	pero no de manera global sin tener que escribir toda la ruta del mismo
+
+
+Event Loop
+
