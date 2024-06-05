@@ -1,0 +1,5 @@
+material icon theme
+material theme
+thunder client
+
+json viewer (chrome)

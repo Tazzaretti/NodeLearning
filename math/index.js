@@ -21,7 +21,7 @@ function divide(x, y){
 //console.log(divide(10, 20))
 
 
-module.exports = {
+export default {
     add,
     sustract,
     multiply,

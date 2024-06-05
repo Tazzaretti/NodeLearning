@@ -44,11 +44,21 @@ process:
 Timers:
 setInterval:
 	Ejecuta codigo cada cierto tiempo
-setTieout
+setTimeout
 	Ejecuta codigo despues de qque pase cierto tiempo
 
 
 comun el uso de camelCase
+
+PARA IMPORTAR MODULOS Y FUNCIONES
+usamos:
+require('nombreDelModulo')
+podemos tambien:
+const modulox = require('moduloX')
+podemos importar funciones individuales de un modulo
+const {funcion1, funcion2} = require('moduloX')
+y las utilizamos directamente por su nombre
+funcion1(parametros)
 
 al importar modulos solemos guardarlos en constantes (o variables si lo que importo suele cambiar) con el mismo nombre del modulo
 
@@ -101,5 +111,11 @@ npx
 	pero no de manera global sin tener que escribir toda la ruta del mismo
 
 
-Event Loop
+Puedo iniciar por defecto con
+npm init -y
+y luego modificar package.json a mi gusto
 
+en el caso de Ecmascript modules lo necesito para agregar en package.json
+"type": "module"
+
+y asi poder utilizar import y export
